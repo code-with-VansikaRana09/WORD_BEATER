@@ -70,7 +70,7 @@ if(time>0){
      
 }
 if(time==0) message.textContent="!!GAME OVER!!"
-
+score=0
     }
 function init(){
 // console.log("Hello")
@@ -83,3 +83,4 @@ setInterval(countTime,1000)
     // })
 
     window.addEventListener("DOMContentLoaded",init)
+
